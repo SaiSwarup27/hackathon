@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Montserrat;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px;
+      }
+
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 80%;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Important Contents and Corresponding Scores</h1>
+    <table>
+      <tr>
+        <th>Content</th>
+        <th>Score</th>
+      </tr>
+      <script type="text/javascript">
+        var textContent = {{ text_content | tojson }};
+        for (var i = 0; i < textContent.length; i+=2) {
+            document.write("<tr><td>" + textContent[i] + "</td><td>" + textContent[i+1] + "</td></tr>");
+        }
+      </script>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+Granular portfolio and positive ALM  °  TCPL's product offerings comprise of smaller ticket-size, shorter-tenor products catering diverse needs of salaried and self-employed individuals.
+11.904761904761903
+Further, despite the shorter-tenor borrowings that TCPL carries in its balance sheet, TCPL has  a positive ALM with no cumulative mismatches up to 5 years+ buckets even at 70% stress levels —
+11.904761904761903
+2.
+11.904761904761903
+Given the nature of the product offerings, TCPL’s granular portfolio with relatively shorter-tenor products provide liquidity support to the entity.
+11.904761904761903
+Systems decision engine runs the following checks, inter-alia, to assess the customer's credit worthiness —
+4.761904761904762
+The algorithm uses data from multiple sources such as KYC, SMS, Bureau, Bank Statements, self-declared survey, Loan history, etc.
+4.761904761904762
+Rols are determined basis the respective customer's risk quotient.
+4.761904761904762
+The alternate credit scoring model of the company takes into account the following 2 levels  = Level 1-— SMS score which takes into account SMS sufficiency  = Level 2 — Bank score Ticket size is also determined through the said engine basis SMS data, bank statement analysis mapped to income declared by the issuer.
+4.761904761904762
+Relaxations are issued to few categories such as consumers with credit card history, consumers on True Balance platform with a good track record, repeat customers, etc.
+4.761904761904762
+estimation of Probability of Default (PoD) of the customer.
+4.761904761904762
